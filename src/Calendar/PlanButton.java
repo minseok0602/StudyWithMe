@@ -1,12 +1,12 @@
-package app0602.cal.diary;
+package Calendar;
 
 import javax.swing.JButton;
 
-public class Planning extends JButton{
+public class PlanButton extends JButton{
 	int year;
 	int month;
 	int day;
-	public Planning(int y, int m, int d) {
+	public PlanButton(int y, int m, int d) {
 		year=y;
 		month=m;
 		day= d;

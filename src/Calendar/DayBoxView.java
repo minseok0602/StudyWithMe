@@ -1,4 +1,4 @@
-package app0602.cal.diary;
+package Calendar;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -9,12 +9,12 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 
 //달력의 반복되는 판넬을 객체로 만들어 생성하기
-public class DateBox extends JPanel{
+public class DayBoxView extends JPanel{
 	String day;
 	Color color;
 	int width;
 	int height;
-	public DateBox(String day,  Color color, int width, int height) {
+	public DayBoxView(String day,  Color color, int width, int height) {
 		this.day = day;
 		this.color = color;
 		this.width = width;
